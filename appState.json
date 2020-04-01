@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_rekogtest.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 9,
+          "column": 121
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -96,7 +96,7 @@
     "platform": "AWS",
     "platformRegions": {},
     "language": "nodejs",
-    "lastSave": 1585741658985
+    "lastSave": 1585741756188
   },
   "VCS_STATE": {
     "provider": "GitHub",
