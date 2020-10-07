@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_rekogtest.js",
         "cursor": {
-          "lineNumber": 9,
-          "column": 121
+          "lineNumber": 18,
+          "column": 15
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -21,7 +21,8 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "lastUpdated": 1602053557702
       }
     },
     "openFiles": [
@@ -42,7 +43,6 @@
           "existing": false,
           "name": "hirutest0104",
           "url": "https://sqs.us-east-1.amazonaws.com/318300609668/hirutest0104",
-          "selectedRegion": "us-east-1",
           "deliveryDelay": 0,
           "deliveryDelayUnit": "seconds",
           "useRedrivePolicy": false,
@@ -63,8 +63,9 @@
       }
     },
     "customTemplate": {
-      "dialect": null,
-      "definitions": null
+      "dialect": "CloudFormation",
+      "definitions": null,
+      "syntax": "JSON"
     },
     "envVariables": [
       {
@@ -89,14 +90,15 @@
     }
   },
   "PROJECT_META": {
+    "sigmaVersion": "1.4.3.1",
     "projectName": "0104_rekogtest",
     "projectDescription": "",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
-    "platformRegions": {},
     "language": "nodejs",
-    "lastSave": 1585741756188
+    "platformRegions": {},
+    "lastSave": 1602053566854
   },
   "VCS_STATE": {
     "provider": "GitHub",
