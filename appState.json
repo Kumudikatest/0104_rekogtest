@@ -12,7 +12,7 @@
         "filePath": "0104_rekogtest.js",
         "cursor": {
           "lineNumber": 18,
-          "column": 15
+          "column": 19
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -22,7 +22,7 @@
           "layers": []
         },
         "triggers": [],
-        "lastUpdated": 1602053557702
+        "lastUpdated": 1602056612901
       }
     },
     "openFiles": [
@@ -98,7 +98,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602053566854
+    "lastSave": 1602056667399
   },
   "VCS_STATE": {
     "provider": "GitHub",
