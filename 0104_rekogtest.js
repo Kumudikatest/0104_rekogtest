@@ -1,4 +1,5 @@
 let AWS = require('aws-sdk');
+const s3 = new AWS.S3();
 const sqs = new AWS.SQS();
 const rekognition = new AWS.Rekognition();
 
@@ -16,7 +17,16 @@ exports.handler = async (event) => {
     } catch (err) {
         // error handling goes here
         //test ttt
-        
+
+    };
+    try {
+        let data = await s3.listObjects({
+            Bucket: "induuuu",
+            MaxKeys: 10
+        }).promise();
+
+    } catch (err) {
+        // error handling goes here
     };
 
 

@@ -125,7 +125,22 @@
               }
             }
           ]
-        }
+        },
+        "Policies": [
+          {
+            "PolicyName": "0104rekogtestPolicy",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": "s3:ListBucket",
+                  "Resource": "arn:aws:s3:::induuuu"
+                }
+              ]
+            }
+          }
+        ]
       }
     },
     "apigsachithraAPInameGETPermission": {
@@ -148,7 +163,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigsachithraAPInameDeployment1602056950121": {
+    "apigsachithraAPInameDeployment1602058835864": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "052p9kjn18",

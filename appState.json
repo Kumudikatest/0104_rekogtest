@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_rekogtest.js",
         "cursor": {
-          "lineNumber": 19,
-          "column": 9
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -27,7 +27,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1602056868788
+        "lastUpdated": 1602058794183
       }
     },
     "openFiles": [
@@ -91,6 +91,16 @@
           "stageDeploymentId": "m1ktoa",
           "mode": 1
         }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
       }
     },
     "customTemplate": {
@@ -129,7 +139,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602056943496
+    "lastSave": 1602058818186
   },
   "VCS_STATE": {
     "provider": "GitHub",
