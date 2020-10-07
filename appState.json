@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_rekogtest.js",
         "cursor": {
-          "lineNumber": 18,
-          "column": 19
+          "lineNumber": 19,
+          "column": 9
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -21,8 +21,13 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": [],
-        "lastUpdated": 1602056612901
+        "triggers": [
+          {
+            "resourceName": "apigsachithraAPInameget",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1602056868788
       }
     },
     "openFiles": [
@@ -59,6 +64,32 @@
           "receiveMessageWaitTime": 0,
           "deadLetterQueueName": "",
           "contentBasedDeduplication": false
+        }
+      },
+      "apigsachithraAPInameget": {
+        "name": "apigsachithraAPInameget",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test112",
+          "stageDeploymentId": "m1ktoa",
+          "mode": 1
         }
       }
     },
@@ -98,7 +129,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602056667399
+    "lastSave": 1602056943496
   },
   "VCS_STATE": {
     "provider": "GitHub",
