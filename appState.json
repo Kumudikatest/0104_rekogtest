@@ -1,8 +1,8 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "d4a90d25-553f-4535-befe-2e31258cb4aa": {
-        "id": "d4a90d25-553f-4535-befe-2e31258cb4aa",
+      "669ba791-2eac-4276-96af-9db3a9617909": {
+        "id": "669ba791-2eac-4276-96af-9db3a9617909",
         "parent": null,
         "name": "0104_rekogtest.js",
         "type": "JS_LAMBDA",
@@ -23,13 +23,21 @@
           "name": "0104rekogtest"
         },
         "triggers": [],
-        "lastUpdated": 1602490319779
+        "lastUpdated": 1602490477759,
+        "testCases": {
+          "67d9d1e6-7a09-4bf7-aa1b-9aa8d340fabb": {
+            "id": "67d9d1e6-7a09-4bf7-aa1b-9aa8d340fabb",
+            "functionId": "669ba791-2eac-4276-96af-9db3a9617909",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
       }
     },
     "openFiles": [
-      "d4a90d25-553f-4535-befe-2e31258cb4aa"
+      "669ba791-2eac-4276-96af-9db3a9617909"
     ],
-    "currentFileId": "d4a90d25-553f-4535-befe-2e31258cb4aa",
+    "currentFileId": "669ba791-2eac-4276-96af-9db3a9617909",
     "resources": {},
     "customTemplate": {
       "syntax": "JSON",
@@ -60,7 +68,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602490322217
+    "lastSave": 1602490483883
   },
   "VCS_STATE": {
     "provider": "GitHub",
