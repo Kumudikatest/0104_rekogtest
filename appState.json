@@ -1,8 +1,8 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "6305e0f4-be92-4bc8-a4e5-2cc7f07ac913": {
-        "id": "6305e0f4-be92-4bc8-a4e5-2cc7f07ac913",
+      "d4a90d25-553f-4535-befe-2e31258cb4aa": {
+        "id": "d4a90d25-553f-4535-befe-2e31258cb4aa",
         "parent": null,
         "name": "0104_rekogtest.js",
         "type": "JS_LAMBDA",
@@ -11,102 +11,31 @@
         "isRemovable": true,
         "filePath": "0104_rekogtest.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 2,
+          "column": 5
         },
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
-          "layers": []
+          "layers": [],
+          "name": "0104rekogtest"
         },
-        "triggers": [
-          {
-            "resourceName": "apigsachithraAPInameget",
-            "config": {}
-          }
-        ],
-        "lastUpdated": 1602075903937
+        "triggers": [],
+        "lastUpdated": 1602490319779
       }
     },
     "openFiles": [
-      "6305e0f4-be92-4bc8-a4e5-2cc7f07ac913"
+      "d4a90d25-553f-4535-befe-2e31258cb4aa"
     ],
-    "currentFileId": "6305e0f4-be92-4bc8-a4e5-2cc7f07ac913",
-    "resources": {
-      "rekognitionResource": {
-        "name": "rekognitionResource",
-        "type": "Rekognition",
-        "config": {}
-      },
-      "sqshirutest0104": {
-        "name": "sqshirutest0104",
-        "type": "SQS",
-        "config": {
-          "mode": 0,
-          "existing": false,
-          "name": "hirutest0104",
-          "url": "https://sqs.us-east-1.amazonaws.com/318300609668/hirutest0104",
-          "deliveryDelay": 0,
-          "deliveryDelayUnit": "seconds",
-          "useRedrivePolicy": false,
-          "useSSE": false,
-          "kmsCustomerMasterKey": "default",
-          "accountId": "318300609668",
-          "dataKeyReusePeriod": 5,
-          "queueType": "standardQueue",
-          "defaultVisibilityTimeout": 30,
-          "defaultVisibilityTimeoutUnit": "seconds",
-          "messageRetentionPeriod": 4,
-          "messageRetentionPeriodUnit": "days",
-          "maximumMessageSize": 256,
-          "receiveMessageWaitTime": 0,
-          "deadLetterQueueName": "",
-          "contentBasedDeduplication": false
-        }
-      },
-      "apigsachithraAPInameget": {
-        "name": "apigsachithraAPInameget",
-        "type": "API_GATEWAY",
-        "config": {
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "sachithraAPIname",
-          "apiId": "052p9kjn18",
-          "endpointType": "REGIONAL",
-          "rootResourceId": "zrjp6rdv3b",
-          "existingResources": {
-            "/": "zrjp6rdv3b"
-          },
-          "resourceMode": 1,
-          "resourcePath": "/",
-          "resourceName": "",
-          "resourceId": "zrjp6rdv3b",
-          "restMethod": "GET",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "test112",
-          "stageDeploymentId": "m1ktoa",
-          "mode": 1
-        }
-      },
-      "s3induuuu": {
-        "name": "s3induuuu",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "name": "induuuu"
-          }
-        }
-      }
-    },
+    "currentFileId": "d4a90d25-553f-4535-befe-2e31258cb4aa",
+    "resources": {},
     "customTemplate": {
-      "dialect": "CloudFormation",
-      "definitions": null,
-      "syntax": "JSON"
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
     },
     "envVariables": [
       {
@@ -119,19 +48,11 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {
-        "aws-sdk": {
-          "name": "aws-sdk",
-          "language": "nodejs",
-          "version": "2.644.0",
-          "dev": true,
-          "notRemovable": false
-        }
-      }
+      "dependencies": {}
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.4.3.1",
+    "sigmaVersion": "1.4.4",
     "projectName": "0104_rekogtest",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -139,13 +60,13 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602075993920
+    "lastSave": 1602490322217
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
       "name": "0104_rekogtest",
-      "url": "https://github.com/HirudineeADRT/0104_rekogtest"
+      "url": "https://github.com/Kumudikatest/0104_rekogtest"
     }
   }
 }
