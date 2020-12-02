@@ -12,7 +12,7 @@
         "filePath": "0104_rekogtest.js",
         "cursor": {
           "lineNumber": 2,
-          "column": 5
+          "column": 7
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,7 +23,7 @@
           "name": "0104rekogtest"
         },
         "triggers": [],
-        "lastUpdated": 1602490477759,
+        "lastUpdated": 1606916224714,
         "testCases": {
           "67d9d1e6-7a09-4bf7-aa1b-9aa8d340fabb": {
             "id": "67d9d1e6-7a09-4bf7-aa1b-9aa8d340fabb",
@@ -42,7 +42,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -60,7 +60,7 @@
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.4.4",
+    "sigmaVersion": "1.4.6",
     "projectName": "0104_rekogtest",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -68,7 +68,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602490483883
+    "lastSave": 1606916241764
   },
   "VCS_STATE": {
     "provider": "GitHub",
