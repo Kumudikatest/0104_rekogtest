@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_rekogtest.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 12
+          "lineNumber": 3,
+          "column": 25
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,7 +23,7 @@
           "name": "0104rekogtest"
         },
         "triggers": [],
-        "lastUpdated": 1606990982525,
+        "lastUpdated": 1607335616714,
         "testCases": {
           "67d9d1e6-7a09-4bf7-aa1b-9aa8d340fabb": {
             "id": "67d9d1e6-7a09-4bf7-aa1b-9aa8d340fabb",
@@ -68,7 +68,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1606990987105
+    "lastSave": 1607335690047
   },
   "VCS_STATE": {
     "provider": "GitHub",
